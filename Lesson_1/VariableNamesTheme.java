@@ -151,13 +151,33 @@ public class VariableNamesTheme {
         System.out.println("имеются уникальные строки? " + hasUniqueStrings);
 
         System.out.println("\nАббревиатуры ");
-        //старый universally unique identifier
-        //производитель оперативной памяти
-        //емкость жесткого диска
-        //протокол передачи гипертекста
-        //сокращенный uniform resource locator
-        //новый идентификатор клиента
-        //american standard code for information interchange
 
+        //старый universally unique identifier
+        String oldUuid = "43534533ede3e424raf4";
+        System.out.println("старый universally unique identifier = " + oldUuid);
+
+        //производитель оперативной памяти
+        String ramManufacturer = "Corsair";
+        System.out.println("производитель оперативной памяти " + ramManufacturer);
+
+        //емкость жесткого диска
+        int hddCapacity = 512;
+        System.out.println("емкость жесткого диска " + hddCapacity + "GB");
+
+        //протокол передачи гипертекста
+        int http = 80;
+        System.out.println("протокол передачи гипертекста " + http);
+
+        //сокращенный uniform resource locator
+        String shortUrl = "ya.ru";
+        System.out.println("сокращенный uniform resource locator " + shortUrl);
+
+        //новый идентификатор клиента
+        int newUserId = 50505;
+        System.out.println("новый идентификатор клиента " + newUserId);
+
+        //american standard code for information interchange
+        char ascii = 80;
+        System.out.println("american standard code for information interchange 80 = " + ascii);
     }
 }
