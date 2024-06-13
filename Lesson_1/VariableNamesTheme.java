@@ -1,4 +1,6 @@
+
 public class VariableNamesTheme {
+
     public static void main(String[] args) {
         System.out.println("Разные переменные");
         //цифра
@@ -6,59 +8,59 @@ public class VariableNamesTheme {
         System.out.println("цифра = " + digit);
 
         //сумма чисел
-        int sumOfNums = 160;
-        System.out.println("cумма чисел = " + sumOfNums);
+        int sumNums = 160;
+        System.out.println("cумма чисел = " + sumNums);
 
         //произведение цифр
-        int multiplicationOfdigits = 16200;
-        System.out.println("произведение цифр = " + multiplicationOfdigits);
+        int multiplicationDigits = 16200;
+        System.out.println("произведение цифр = " + multiplicationDigits);
 
         //максимальное число
-        int maxNumber = 999999;
-        System.out.println("максимальное число = " + maxNumber);
+        int maxNum = 999999;
+        System.out.println("максимальное число = " + maxNum);
 
         //количество десятков
-        int countOfTens = 10;
-        System.out.println("количество десятков = " + countOfTens);
+        int countTens = 10;
+        System.out.println("количество десятков = " + countTens);
 
         //вес собаки
         float dogWeigh = 8.6f;
         System.out.println("вес собаки = " + dogWeigh + " кг");
 
         //исходное число
-        int initialNumber = 100;
-        System.out.println("исходное число = " + initialNumber);
+        int initialNum = 100;
+        System.out.println("исходное число = " + initialNum);
 
         //процент по вкладу
         int depositRate = 13;
         System.out.println("процент по вкладу = " + depositRate + "%");
 
         //переменная хранит символ &
-        char variableStores = '&';
-        System.out.println("переменная хранит символ " + variableStores);
+        char ampersand = '&';
+        System.out.println("переменная хранит символ " + ampersand);
 
         //код ошибки
         int errorCode = 404;
         System.out.println("код ошибки = " + errorCode);
 
         //тип сообщения
-        int typeOfMessage = 1;
-        System.out.println("тип сообщения = " + typeOfMessage);
+        int messageType = 1;
+        System.out.println("тип сообщения = " + messageType);
 
         //число нулей
-        int numberOfZeros = 3;
-        System.out.println("число нулей = " + numberOfZeros);
+        int numZeros = 3;
+        System.out.println("число нулей = " + numZeros);
 
         //уникальное число
-        int uniqueNumber = 333;
-        System.out.println("уникальное число = " + uniqueNumber);
+        int uniqueNum = 333;
+        System.out.println("уникальное число = " + uniqueNum);
 
         //случайное число
-        int randomNumber = 123;
-        System.out.println("случайное число = " + randomNumber);
+        int randomNum = 123;
+        System.out.println("случайное число = " + randomNum);
 
         //математическое выражение
-        double mathExpression = (double) (maxNumber - randomNumber) / depositRate;
+        double mathExpression = (double) (maxNum - randomNum) / depositRate;
         System.out.println("математическое выражение = " + mathExpression);
 
         //счет в игре
@@ -74,24 +76,24 @@ public class VariableNamesTheme {
         System.out.println("пункт меню: " + menuItem);
 
         //стоимость кофе
-        float coffeePrice = 2.5f;
-        System.out.println("стоимость кофе: " + coffeePrice + "$");
+        float cofeePrice = 2.5f;
+        System.out.println("стоимость кофе: " + cofeePrice + "$");
 
         //дата начала
         String startDate = "01.01.1970";
         System.out.println("дата начала = " + startDate);
 
         //окончание диапазона
-        int endOfrange = 5;
-        System.out.println("окончание диапазона = " + endOfrange);
+        int endRange = 5;
+        System.out.println("окончание диапазона = " + endRange);
 
         //полное имя работника месяца
-        String emploeeOfTheMonthFullName = "Лукашин Сергей Владимирович";
-        System.out.println("полное имя работника месяца: " + emploeeOfTheMonthFullName);
+        String bestEmploeeFullName = "Лукашин Сергей Владимирович";
+        System.out.println("полное имя работника месяца: " + bestEmploeeFullName);
 
         //заголовок электронной книги
-        String eBookTitle = "Lord of the ring";
-        System.out.println("заголовок электронной книги " + eBookTitle);
+        String ebookTitle = "Lord  the ring";
+        System.out.println("заголовок электронной книги " + ebookTitle);
 
         //размер
         int size = 1024;
@@ -107,16 +109,16 @@ public class VariableNamesTheme {
 
         //путь до файла
         String filePath = "D:/games/quake.exe";
-        System.out.println("путь до файла " + "\""+filePath+"\"");
+        System.out.println("путь до файла " + "\"" + filePath + "\"");
 
         //количество чисел в каждой строке
-        int countOfNumbersEachLine = 350;
-        System.out.println("количество чисел в каждой строке = " + countOfNumbersEachLine);
+        int countNumsEachLine = 350;
+        System.out.println("количество чисел в каждой строке = " + countNumsEachLine);
 
         System.out.println("\nboolean-переменные");
         //сотни равны?
-        boolean isHundredsEqual = false;
-        System.out.println("сотни равны? " + isHundredsEqual);
+        boolean isEqualHundreds = false;
+        System.out.println("сотни равны? " + isEqualHundreds);
 
         //компьютер включен?
         boolean isComputerOn = true;
@@ -143,8 +145,8 @@ public class VariableNamesTheme {
         System.out.println("новое? " + isNew);
 
         //электронная почта действительная?
-        boolean isEmailValid = false;
-        System.out.println("электронная почта действительная? " + isEmailValid);
+        boolean isValidEmail = false;
+        System.out.println("электронная почта действительная? " + isValidEmail);
 
         //имеются уникальные строки?
         boolean hasUniqueStrings = true;
@@ -173,8 +175,8 @@ public class VariableNamesTheme {
         System.out.println("сокращенный uniform resource locator " + shortUrl);
 
         //новый идентификатор клиента
-        int newUserId = 50505;
-        System.out.println("новый идентификатор клиента " + newUserId);
+        int newClientID = 50505;
+        System.out.println("новый идентификатор клиента " + newClientID);
 
         //american standard code for information interchange
         char ascii = 80;
